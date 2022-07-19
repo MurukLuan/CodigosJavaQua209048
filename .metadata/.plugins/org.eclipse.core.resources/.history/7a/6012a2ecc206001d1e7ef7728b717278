@@ -1,0 +1,30 @@
+package aulas;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * aqui vai um
+		 * comentario
+		 * de varias
+		 * linhas
+		 * */
+		
+		int minhaVariavel = 10;
+		String minhaString = "Luan Muruk";
+		double minhaDouble = 10.25;
+		char minhaChar = 'M';
+		boolean verdadeiro = true;
+		boolean falso = false;
+
+		System.out.println("Hello World");
+		System.out.println(minhaVariavel);
+		System.out.println(minhaString);
+		System.out.println(minhaDouble);
+		System.out.println(minhaChar);
+		System.out.println(verdadeiro);
+		System.out.println(falso);
+		System.out.println(minhaVariavel + minhaString + minhaDouble);
+	}
+}
