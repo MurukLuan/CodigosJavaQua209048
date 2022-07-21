@@ -14,9 +14,7 @@ public class EntradaDadosTeclado {
 		int numero = 0;
 		char sexo;
 		double x = 10.25;
-		
-		
-		
+
 		System.out.println("Entre com um numero inteiro: ");
 		numero = leia.nextInt();
 		
