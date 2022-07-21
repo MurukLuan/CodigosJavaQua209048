@@ -72,13 +72,14 @@ public class OperadoresAritmeticos {
 		double fahrenheit = 0;
 		double celsius = 0;
 		
-		
 		System.out.print("Entre com a temperatura em fahrenheit: ");
 		fahrenheit = leia.nextDouble();
 		
 		celsius = 5 * ((fahrenheit - 32) / 9);
-		
+			
 		System.out.println("O valor convertido para celsiu fica: " + celsius);
+		
+		System.out.printf("O valor de celsius é: %.2f", celsius);
 		
 		leia.close();
 	}
