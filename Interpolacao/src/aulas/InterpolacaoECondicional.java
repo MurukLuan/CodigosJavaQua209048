@@ -36,18 +36,19 @@ public class InterpolacaoECondicional {
 		 * 
 		 * if (ano %4 == 0) { System.out.println("O ano é bisexto!"); }else {
 		 * System.out.println("O ano não é bisexto!"); }
+		 * 
+		 * 
+		 * System.out.print("Entre com a nota: "); d = sc.nextDouble();
+		 * 
+		 * if (d > 0.0 && d <= 10) { System.out.println("Ok nota valida!"); } else {
+		 * System.out.println("Entre com um valor entre 0 e 10");
+		 * System.out.print("Entre com a nota: "); d = sc.nextDouble();
+		 * 
+		 * if(d > 0.0 && d < 10.0) { System.out.println("Ok nota valida!"); }else {
+		 * System.out.println("Cara, ce num aprendeu ne? finalizando programa"); } }
 		 */
 
-		System.out.print("Entre com a nota: ");
-		d = sc.nextDouble();
-
-		if (d > 0.0 && d <= 10) {
-			System.out.println("Ok nota valida!");
-		} else {
-			System.out.println("Entre com um valor entre 0 e 10");
-			System.out.print("Entre com a nota: ");
-			d = sc.nextDouble();	
-		}
+		
 		sc.close();
 	}
 
