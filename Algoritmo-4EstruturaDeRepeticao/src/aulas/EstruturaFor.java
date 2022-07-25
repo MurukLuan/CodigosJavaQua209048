@@ -64,8 +64,6 @@ public class EstruturaFor {
 			System.out.println("imprimiu");
 		}
 		
-		
-		
 		sc.close();
 	}
 
