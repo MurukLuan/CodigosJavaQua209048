@@ -50,6 +50,7 @@ public class EstruturaSelecao {
 		Nycollas Passos Martins saiu as 15:25
 		*/
 		
+		/*
 		System.out.println("Entre com um numero: ");
 		int numero = leia.nextInt();
 		
@@ -69,6 +70,8 @@ public class EstruturaSelecao {
 		}
 		
 		System.out.println("Saiu do Switch case!");
+		*/
+		
 		
 		leia.close();
 	}
