@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Algoritmos-4ExercicioEstruturaCondicional</name>
+	<name>TesteStrings</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1658856073972</id>
+			<id>1658856074073</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

@@ -97,7 +97,7 @@ public class IfElse {
 		}
 		*/
 		
-		int diaSemana = 0;
+		/*int diaSemana = 0;
 		
 		System.out.println("Entre com o numero para saber o dia da semana: ");
 		diaSemana = sc.nextInt();
@@ -117,8 +117,15 @@ public class IfElse {
 		default:
 			System.out.println("opção invalida!");
 			break;
-		}
+		}	*/
 		
+		char x = 'm';
+		
+		sc.next().charAt(0);
+		
+		if (x == 'm') {
+			System.out.println("Aceitou");
+		}
 		
 		sc.close();
 
