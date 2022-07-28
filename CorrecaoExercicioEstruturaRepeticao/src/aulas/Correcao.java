@@ -48,6 +48,7 @@ public class Correcao {
 		System.out.println("Cadastro realizado com sucesso");
 		*/
 		
+		/*
 		String nome;
 		int idade = 0;
 		double salario = 0.0;
@@ -108,6 +109,9 @@ public class Correcao {
 			System.out.print("Entre com o estado civil: ");
 			estadoCivil = sc.next().charAt(0);
 		}
+		*/
+		
+		
 		
 	}
 
