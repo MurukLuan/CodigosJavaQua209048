@@ -22,7 +22,6 @@ public class Program {
 		
 		System.out.println(pessoa.nome + " " + pessoa.idade + " " + pessoa.sexo);
 		
-		
 		sc.close();
 
 	}
