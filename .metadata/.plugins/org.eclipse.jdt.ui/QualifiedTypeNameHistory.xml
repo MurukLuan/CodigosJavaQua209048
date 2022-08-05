@@ -8,6 +8,9 @@
     <fullyQualifiedTypeName name="entity.Pessoa"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Locale.IsoCountryCode"/>
+    <fullyQualifiedTypeName name="entities.Herois"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
