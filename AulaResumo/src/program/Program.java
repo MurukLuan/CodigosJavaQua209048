@@ -19,7 +19,7 @@ public class Program {
 
 			Conta conta2 = new Conta();
 
-			Clientes cliente = new Clientes();
+			Clientes cliente = new Clientes();	
 
 			System.out.println("Entre com o numero da conta: ");
 			conta.setNumeroConta(sc.nextInt());

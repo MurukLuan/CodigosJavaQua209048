@@ -7,6 +7,7 @@ public class Conta {
 	private double saldo;
 	private Clientes titularDaConta;
 	
+	
 	public Conta() {
 	}
 
@@ -41,7 +42,7 @@ public class Conta {
 	public void Depositar(double valor) {
 		this.saldo += valor;
 	}
-	
+
 	public boolean Sacar(double valor) throws ContaException {		
 		if(valor <= this.saldo) {			
 			this.saldo -= valor;
@@ -61,5 +62,7 @@ public class Conta {
 		throw new ContaException("Saldo indisponivel!");
 		//return false;
 	}
+	
+	
 
 }
