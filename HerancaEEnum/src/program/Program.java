@@ -6,15 +6,17 @@ import java.util.Scanner;
 import entitites.Cliente;
 import entitites.Conta;
 import entitites.ContaCorrente;
+import entitites.ContaPoupanca;
 
 public class Program {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		
-		//Cliente cliente = new Cliente();
+		Cliente cliente = new Cliente();
 		Conta contaConcorrente = new ContaCorrente();
-		Conta conta = new Conta();
+		Conta conta = new Conta();	
+		Conta cp = new ContaPoupanca();
 		
 		conta.Depositar(100);
 		contaConcorrente.Depositar(200);
@@ -24,19 +26,15 @@ public class Program {
 		
 		System.out.println("saldo conta: " + conta.getSaldo());
 		System.out.println("saldo conta corrente: " + contaConcorrente.getSaldo());
-		
-		
-		
-		/*
+	
 		System.out.print("Entre com o nome do titular: ");
 		cliente.setNome(sc.nextLine());
 		
 		sc.nextLine();
 		System.out.print("Entre com o CPF do titular: ");
-		cliente.setCpf(sc.nextLine());
-		
+		cliente.setCpf(sc.nextLine());		
 		contaConcorrente.setTitular(cliente);
-		
+				
 		System.out.print("Entre com o numero da agencia: ");
 		contaConcorrente.setAgencia(sc.nextInt());
 		
@@ -55,7 +53,7 @@ public class Program {
 		
 		System.out.println("Saldo atualizado: ");
 		System.out.println(contaConcorrente);
-		*/
+		
 		sc.close();
 	}
 
