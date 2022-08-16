@@ -22,5 +22,6 @@
     <fullyQualifiedTypeName name="entitites.ContaCorrente"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entities.Veiculo"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>
